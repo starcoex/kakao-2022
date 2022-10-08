@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <title>Chat Clone</title>
+  </head>
+  <body class="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Services</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-key"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h2>Ko Jung Hoon</h2>
+      </div>
+      <div class="alt-header__column">
+        <a href="find.html"><i class="fas fa-search fa-lg"></i></a>
+        <i class="fas fa-server fa-lg"></i>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="main-chat__timestamp">Tuesdqy, JUne 30, 2020</div>
+
+      <div class="message-row">
+        <img src="./img/ko.png" alt="" />
+        <div class="message-row__content">
+          <span>Ko Jung Hoon</span>
+          <div class="message__info">
+            <span>Hi!</span>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span>What's up?</span>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form action="" class="reply">
+      <div class="reply__column">
+        <i class="fas fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <div class="reply__column--input">
+          <i class="fas fa-smile-wink fa-lg"></i>
+          <button><i class="fas fa-upload fa-lg"></i></button>
+        </div>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen is too big ㅠㅠ</span>
+    </div>
+  </body>
+</html>

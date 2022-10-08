@@ -1,0 +1,36 @@
+.screen-header {
+  display: flex;
+  /* z-index: 20; */
+  /* width: 100%; */
+  /* margin: 20px 15px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+}
+.screen-header__title {
+  /* width: 70%; */
+  font-size: 32px;
+  font-weight: 600;
+}
+.header-icons {
+  /* display: flex;
+  width: 30%;
+  justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+.header-icons span {
+  margin-left: 25px;
+  opacity: 0.8;
+}
+
+/* @keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(360deg);
+  }
+}
+.header-icons .fa-cog {
+  animation: rotateCog 3s ease-in-out infinite;
+} */
